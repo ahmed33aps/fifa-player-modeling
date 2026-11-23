@@ -1,0 +1,34 @@
+# FIFA player modeling
+
+Player-value regression and performance-tier classification, with preprocessing and model comparisons.
+
+## Contents
+
+- `note_book_2.ipynb`
+- `Fifa.csv`
+- `EDA_preprosecing.ipynb`
+- `Handle_Script.py`
+
+## Run
+
+First restore the locally required data described in `PUBLIC_DATA_SETUP.md`.
+
+Use Python 3.11+ in a virtual environment, then install dependencies:
+
+```sh
+python -m pip install -r requirements.txt
+jupyter notebook
+```
+
+Open a notebook from this repository and run it from the repository root.
+
+## Review notes
+
+- Organized from the supplied project archives; duplicate folders, cache files and assignment handouts were not counted as separate projects.
+- Saved notebook outputs were cleared so old results are not mistaken for a current successful run.
+- Raw datasets are not included in this public source copy. See `PUBLIC_DATA_SETUP.md` for exact local filenames and expected columns. No new license is assigned.
+- This is a portfolio/learning project, not a validated decision system. See `VALIDATION.md` for checks and remaining limits.
+
+## Repaired baseline
+
+Run `python train.py` for a tested train-only preprocessing baseline. Original notebooks are retained as exploratory source and are not all reproduced end to end. The tier classifier omits the rating that defines its target.
