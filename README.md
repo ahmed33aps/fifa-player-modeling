@@ -2,7 +2,9 @@
 
 Player-value regression and performance-tier classification, with preprocessing and model comparisons.
 
-## Contents
+## Project files and local data inputs
+
+Data files listed below are local inputs, not bundled public downloads. See `PUBLIC_DATA_SETUP.md`.
 
 - `note_book_2.ipynb`
 - `Fifa.csv`
